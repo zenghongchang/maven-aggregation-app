@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigator>
+	<system.manage sort_order="108">
+		<system.error.correction.manage link="/system/manageSystemErrorCorrection">
+			<acl>
+				<edit link="/system/editSystemErrorCorrection" />
+				<acl link="/system/saveSystemErrorCorrection"></acl>
+				<acl link="/system/markAsSolved"/>
+			</acl>
+		</system.error.correction.manage>
+		<create.system.error.correction link="/system/editSystemErrorCorrection">
+			<acl>
+				<acl link="/system/saveSystemErrorCorrection"></acl>
+			</acl>
+		</create.system.error.correction>
+	</system.manage>
+</navigator>
